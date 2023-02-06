@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+}
+h1{
+    font-size: 44px;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 24px;
+}
+*{
+    box-sizing: border-box;
+}
+#uno{
+    background-image: url(../Imagenes/Fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+#uno,img{
+    padding: 10px 15px;
+}
+.texto,p{
+    margin-left: 30px;
+}
+.texto{
+    max-width:500px ;
+    margin-right: auto; 
+    margin-left: auto;
+    color: white;
+}
+
+#menu,li,a{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px;
+    color: white;
+}
+#menu{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 20px;
+
+}
+#dos, #tres, #nueve, #diez{
+    width: 49%;
+    display: inline-block;
+    min-height: 280px;
+}
+#dos, #nueve{
+    background-color: #d03b40;
+    color: #ded6c0;
+}
+#tres, #diez{
+background-color: #ded6c0;
+    color: #d03b40;
+}
+#dos, #nueve {
+   
+        display: inline-flex;
+        justify-content: center;
+      padding-top: 75px;
+      
+}
+#tres, #diez {
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 75px;
+    
+}
+#cuatro{
+    background-image: url(../Imagenes/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+#cuatro,img{
+    padding: 10px 15px;
+
+}
+.texto2 p{
+    margin-left: 100px;
+}
+.texto2{
+    padding-top: 150px;
+    max-width:500px ;
+    margin-right: auto; 
+    margin-left: auto;
+    color: white;
+}
+.boton{
+    max-width: 300px;
+    text-align: center;
+}
+#boton{
+    max-width: 200px;
+    padding: 5px;
+    border: 2px solid white;
+    text-align: center;
+    
+}
+#cinco,#seis,#siete,#ocho{
+    display: inline-block;
+    width: 49%;
+}
+h3{
+    display: inline-block;
+    position: absolute;
+}
+.p{
+ display: inline-block;
+ max-width: 250px;
+
+}
+.fondo{
+    background-color: #ded6c0;
+}
+@media screen and (max-width:1085px) {
+    #tres,#dos,#seis,#siete,#ocho,#nueve,#diez,#cinco{
+        display: block;
+        width: 100%;
+    
+        
+    }
+    #tres,#dos,#seis,#siete,#ocho,#nueve,#diez,#cinco,.texto,.texto2,.p  {
+        text-align: center;
+    }
+body{
+    display: block;
+}
+}
+@media  screen and (max-width:700px) {
+    body{
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+    #tres,#dos,#seis,#siete,#ocho,#nueve,#diez,#cinco,.texto,.texto2,.p {
+        text-align: center;
+    }
+    h3{
+        position: relative;
+        display: block;
+    }
+    .boton{
+        text-align: center;
+        margin-right: 0px ;
+    }
+}
